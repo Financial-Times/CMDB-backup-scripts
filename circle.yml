@@ -1,0 +1,4 @@
+test:
+  override:
+    - pip install boto3
+    - python database_backup.py
